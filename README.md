@@ -1,6 +1,8 @@
 # Ferramentas Online (Atividade CPDI)
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![Curso](https://img.shields.io/badge/Curso-Programação%20Web-blue)
+![Instituição](https://img.shields.io/badge/Instituição-CPDI-purple)
 
 Este projeto é uma página web simples que reúne duas ferramentas úteis: uma **Calculadora de IMC** e um **Verificador de Palíndromos**. Ele foi desenvolvido como uma atividade prática para o curso de Programação Web do **CPDI**.
 
