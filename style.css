@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212; 
+  color: #e0e0e0;
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+main {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #a0a0a0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex-grow: 1; 
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  background-color: #252525;
+  color: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%; 
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); 
+}
+
+/* Divs de resultado com altura mínima */
+#resultado-palindromo, #resultado-imc {
+  font-size: 1.1rem;
+  min-height: 25px; 
+}
+
+/* Classes de formatação do resultado do palíndromo */
+.sucesso {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.erro {
+  color: #dc3545;
+  font-weight: bold;
+}
