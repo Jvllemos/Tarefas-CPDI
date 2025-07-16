@@ -25,16 +25,14 @@ O projeto consiste em duas ferramentas principais em uma única página:
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
--   **HTML5:** Para a estrutura semântica da página.
--   **CSS3:** Para a estilização, layout (Flexbox) e responsividade.
--   **JavaScript (ES6+):** Para toda a lógica funcional, interatividade e manipulação do DOM.
--   **Google Fonts:** Para a fonte `Poppins`.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 ## 🖼️ Demonstração
 
 Abaixo, uma imagem de como a aplicação se parece:
-
-*(Dica: Tire um print da tela do seu projeto em execução, salve o arquivo como `screenshot.png` na mesma pasta do projeto e o GitHub irá exibi-lo aqui automaticamente).*
 
 ![Screenshot da aplicação](screenshot.png)
 
@@ -58,5 +56,3 @@ E pronto! As ferramentas já estarão funcionando.
 
 Feito por **João Vitor Lemos da Luz**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jvll3100)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
